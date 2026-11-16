@@ -115,7 +115,7 @@ Pengujian dilakukan berurutan dalam satu sesi program (Code::Blocks 25.03, Windo
 - **Hasil pengujian:** Muncul pesan `Produk "Bakso" berhasil ditambahkan.` Pada daftar produk, Bakso tampil sebagai nomor 7 (harga 10000, stok 20).
 - **Keterangan:** Produk baru disimpan pada indeks `jumlah` (6), lalu `jumlah` menjadi 7.
 
-![Skenario 1 - Tambah produk](screenshots/01-tambah-produk.png)<img width="960" height="540" alt="Screenshot 2026-11-13 163927" src="https://github.com/user-attachments/assets/934a2185-97aa-4463-adf3-051cbd6ccdba" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 163927" src="https://github.com/user-attachments/assets/934a2185-97aa-4463-adf3-051cbd6ccdba" />
 
 
 ### Skenario 2: Transaksi
@@ -124,7 +124,7 @@ Pengujian dilakukan berurutan dalam satu sesi program (Code::Blocks 25.03, Windo
 - **Hasil pengujian:** Subtotal Nasi Goreng 36000 (3 x 12000), Es Teh Manis 12000 (3 x 4000), Bakso 30000 (3 x 10000). Total pembayaran 78000.
 - **Keterangan:** Subtotal = harga x jumlah beli, total = jumlah seluruh subtotal.
 
-![Skenario 2 - Transaksi](screenshots/02-transaksi.png)<img width="960" height="540" alt="Screenshot 2026-11-13 164304" src="https://github.com/user-attachments/assets/1ecd4dc2-84fd-4b5f-bd51-075d8cddc550" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 164304" src="https://github.com/user-attachments/assets/1ecd4dc2-84fd-4b5f-bd51-075d8cddc550" />
 
 
 ### Skenario 3: Pembaruan Stok
@@ -135,7 +135,7 @@ Pengujian dilakukan berurutan dalam satu sesi program (Code::Blocks 25.03, Windo
 
 Stok sebelum transaksi (stok awal pada daftar produk):
 
-![Skenario 3 - Stok sebelum](screenshots/01-tambah-produk.png)<img width="960" height="540" alt="Screenshot 2026-11-13 164527" src="https://github.com/user-attachments/assets/dce45c10-8fe3-46e0-a869-8c170fa4059c" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 164527" src="https://github.com/user-attachments/assets/dce45c10-8fe3-46e0-a869-8c170fa4059c" />
 
 
 Stok sesudah transaksi (menu 1):
@@ -148,7 +148,7 @@ Stok sesudah transaksi (menu 1):
 - **Hasil pengujian:** Muncul pesan `Stok Air Mineral tidak cukup (tersedia 4, sudah dipilih 0).` Produk tidak masuk transaksi, dan transaksi dibatalkan karena tidak ada produk yang dipilih. Stok Air Mineral tetap 4 (terlihat pada menu 9 di skenario 7).
 - **Keterangan:** Program membandingkan jumlah beli dengan stok sebelum item masuk ke keranjang.
 
-![Skenario 4 - Stok tidak cukup](screenshots/04-stok-tidak-cukup.png)<img width="960" height="540" alt="Screenshot 2026-11-13 164726" src="https://github.com/user-attachments/assets/4a9bc65e-8423-4107-ad18-eb9992286601" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 164726" src="https://github.com/user-attachments/assets/4a9bc65e-8423-4107-ad18-eb9992286601" />
 
 
 ### Skenario 5: Laporan
@@ -157,7 +157,7 @@ Stok sesudah transaksi (menu 1):
 - **Hasil pengujian:** Terjual Nasi Goreng 3 (36000), Es Teh Manis 3 (12000), Bakso 3 (30000), produk lain 0. Total unit terjual 9, total pendapatan 78000. Produk terlaris: Nasi Goreng, Es Teh Manis, dan Bakso dengan 3 unit.
 - **Keterangan:** Total unit = 3 + 3 + 3 = 9. Total pendapatan = 36000 + 12000 + 30000 = 78000. Ketiga produk memiliki jumlah terjual yang sama, sehingga ketiganya ditampilkan sebagai produk terlaris.
 
-![Skenario 5 - Laporan](screenshots/05-laporan.png)<img width="960" height="540" alt="Screenshot 2026-11-13 164801" src="https://github.com/user-attachments/assets/a83ca909-19b9-4acf-96f8-373767178ad6" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 164801" src="https://github.com/user-attachments/assets/a83ca909-19b9-4acf-96f8-373767178ad6" />
 
 
 ### Skenario 6: Pengurutan
@@ -168,7 +168,7 @@ Stok sesudah transaksi (menu 1):
   - Urut terjual: Nasi Goreng (3), Es Teh Manis (3), Bakso (3), lalu Mie Ayam, Gorengan, Air Mineral, Kopi Susu (masing-masing 0).
 - **Keterangan:** Pengurutan memakai bubble sort pada array indeks, sehingga data asli tidak berpindah.
 
-![Skenario 6 - Pengurutan](screenshots/06-urut-produk.png)<img width="960" height="540" alt="Screenshot 2026-11-13 164944" src="https://github.com/user-attachments/assets/1fd1096e-e66e-42f6-a4c7-e4c9b42b11dd" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 164944" src="https://github.com/user-attachments/assets/1fd1096e-e66e-42f6-a4c7-e4c9b42b11dd" />
 
 
 ### Skenario 7: Pencarian dan Stok
@@ -177,14 +177,14 @@ Stok sesudah transaksi (menu 1):
 - **Hasil pengujian:** Pencarian menampilkan Kopi Susu (nomor 6, harga 8000, stok 12) dan pesan `Ditemukan 1 produk.` Menu 9 menampilkan peringatan untuk Air Mineral dengan stok 4.
 - **Keterangan:** Pencarian tidak peka huruf besar/kecil. Peringatan muncul untuk setiap produk dengan stok kurang dari 5.
 
-![Skenario 7 - Pencarian dan stok menipis](screenshots/07-cari-dan-stok.png)<img width="960" height="540" alt="Screenshot 2026-11-13 165434" src="https://github.com/user-attachments/assets/a5d417fc-9a08-4f16-aa6f-37a137d9cc76" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 165434" src="https://github.com/user-attachments/assets/a5d417fc-9a08-4f16-aa6f-37a137d9cc76" />
 
 
 ### Pengujian Tambahan: Validasi Menu
 - **Input/Tindakan:** Memilih menu `15`, lalu `0` untuk keluar.
 - **Hasil pengujian:** Muncul pesan `[!] Pilihan menu tidak tersedia.` dan program kembali ke menu. Pilihan `0` mengakhiri program dengan pesan `Terima kasih. Program selesai.`
 
-![Validasi menu dan keluar](screenshots/08-validasi-menu.png)<img width="960" height="540" alt="Screenshot 2026-11-13 170336" src="https://github.com/user-attachments/assets/5947cd2c-0fcd-47a0-b8b0-8bb99de993d7" />
+<img width="960" height="540" alt="Screenshot 2026-11-13 170336" src="https://github.com/user-attachments/assets/5947cd2c-0fcd-47a0-b8b0-8bb99de993d7" />
 
 
 ## Struktur Repository
