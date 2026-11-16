@@ -138,7 +138,6 @@ Stok sebelum transaksi (stok awal pada daftar produk):
 <img width="960" height="540" alt="Screenshot 2026-11-13 164527" src="https://github.com/user-attachments/assets/dce45c10-8fe3-46e0-a869-8c170fa4059c" />
 
 
-Stok sesudah transaksi (menu 1):
 
 
 
