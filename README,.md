@@ -140,7 +140,7 @@ Stok sebelum transaksi (stok awal pada daftar produk):
 
 Stok sesudah transaksi (menu 1):
 
-![Skenario 3 - Stok sesudah](screenshots/03-stok-sesudah.png)
+
 
 ### Skenario 4: Stok Tidak Cukup
 - **Input/Tindakan:** Menu 4, pilih nomor 5 (Air Mineral, stok 4), jumlah beli `5`.
